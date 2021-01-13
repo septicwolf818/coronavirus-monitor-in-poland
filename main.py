@@ -26,8 +26,6 @@ while True:
     table.field_names = data[0][:-1]
 
     for index, data_chunk in enumerate(data[1:-1]):
-
-        print(index)
         table.add_row(data_chunk[:-1])
 
     print(table)
