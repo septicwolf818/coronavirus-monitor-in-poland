@@ -1,3 +1,5 @@
+"""Coronavirus monitor in Poland"""
+
 from bs4 import BeautifulSoup
 import prettytable
 import requests
